@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="30dp"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn muốn chat trong group này?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/grImg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/rose"
+        android:hint="name"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_marginRight="20sp"
+            android:text="Yes"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/no"
+            android:text="No"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
